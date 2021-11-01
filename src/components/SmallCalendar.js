@@ -57,7 +57,7 @@ export default function SmallCalendar() {
       </header>
       <div className="grid grid-cols-7 grid-rows-6">
         {currentMonth[0].map((day, i) => (
-          <span key={i} classname="text-sm py-1 text-center">
+          <span key={i} className="text-sm py-1 text-center">
             {day.format('dd').charAt(0)}
           </span>
         ))}
